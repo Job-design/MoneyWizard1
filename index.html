@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phone, WiFi & Profits: Your Guide to Making Money Online - eBook</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+        }
+        header {
+            background: #28a745;
+            color: white;
+            padding: 15px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .container {
+            width: 90%;
+            margin: auto;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 20px;
+            justify-content: center;
+        }
+        .product-card {
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            border: 2px solid #28a745;
+            max-width: 300px;
+            width: 100%;
+        }
+        .product-card img {
+            width: 80%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .buy-btn {
+            display: block;
+            padding: 10px;
+            margin-top: 10px;
+            background: #ffc107;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .buy-btn:hover {
+            background: #ff9800;
+        }
+        .description, .reviews {
+            width: 90%;
+            margin: auto;
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            border: 2px solid #28a745;
+            text-align: center;
+        }
+        .reasons {
+            list-style-type: none;
+            padding: 0;
+            text-align: left;
+        }
+        .reasons li {
+            margin: 10px 0;
+            padding: 10px;
+            background: #d4edda;
+            border-left: 5px solid #28a745;
+            font-weight: bold;
+        }
+        .timer {
+            font-size: 18px;
+            color: red;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        .review {
+            text-align: left;
+            background: #f9f9f9;
+            padding: 10px;
+            margin: 10px 0;
+            border-left: 5px solid #ffc107;
+            font-style: italic;
+        }
+        .review strong {
+            display: block;
+            color: #333;
+            font-style: normal;
+            margin-top: 5px;
+        }
+        footer {
+            background: #28a745;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        @media (max-width: 600px) {
+            .container, .description, .reviews {
+                width: 95%;
+                padding: 10px;
+            }
+            .product-card {
+                max-width: 280px;
+            }
+            .product-card img {
+                width: 70%;
+            }
+            .timer {
+                font-size: 16px;
+            }
+        }
+    </style>
+    <script>
+        function countdown() {
+            var count = 5743;
+            var timer = setInterval(function() {
+                var hours = Math.floor(count / 3600);
+                var minutes = Math.floor((count % 3600) / 60);
+                var seconds = count % 60;
+                document.getElementById("timer").innerHTML = hours + "h " + minutes + "m " + seconds + "s left to grab the deal!";
+                count--;
+                if (count < 0) {
+                    clearInterval(timer);
+                    document.getElementById("timer").innerHTML = "Deal expired!";
+                }
+            }, 1000);
+        }
+        window.onload = countdown;
+    </script>
+</head>
+<body>
+    <header>
+        <div class="logo">Money Wizard</div>
+    </header>
+    
+    <div class="container">
+        <div class="product-card">
+            <img src="/Users/hemanthkumars/Desktop/untitled folder/c.jpeg" alt="Make Money Online eBook">
+            <h2>Phone, WiFi & Profits: Your Guide to Making Money Online</h2>
+            <p id="timer" class="timer"></p>
+            <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_PwOYmJRuxLeJzs" async> </script> </form>
+        </div>
+    </div>
+    
+    <div class="description">
+        <h2>About the eBook</h2>
+        <p>Phone, WiFi & Profits: Your Guide to Making Money Online is the ultimate handbook for anyone looking to earn money using just a smartphone and an internet connection. In today's digital world, countless opportunities exist to generate income without traditional jobs or large investments. This ebook simplifies the process by providing easy-to-follow methods that require only 30 minutes a day. You'll learn about freelancing, affiliate marketing, online surveys, and selling digital products—all with step-by-step guidance. The book explores the best platforms and apps that pay for simple tasks, making it beginner-friendly. Whether you’re a student, stay-at-home parent, or someone seeking a side hustle, these strategies work for everyone. The guide also includes real success stories, expert tips, and secret tricks used by top online earners. You’ll discover how to automate your income streams, ensuring long-term financial stability. It also highlights common pitfalls and scams to avoid, helping you stay safe while making money online. This ebook isn’t just about earning—it’s about maximizing your time and building a sustainable online business. With proven strategies, practical insights, and actionable steps, this guide empowers you to take control of your financial future. By the end of this book, you’ll have the knowledge and confidence to start earning online immediately. The best part? No special skills or prior experience are required. Just your phone, WiFi, and a willingness to take action. Your journey to financial freedom starts now!</p>
+        <h3>Why Buy This eBook?</h3>
+        <ul class="reasons">
+            <li>✔ Beginner-friendly step-by-step guide</li>
+            <li>✔ Proven methods to earn online</li>
+            <li>✔ Requires only 30 minutes a day</li>
+            <li>✔ Works with just a phone and WiFi</li>
+            <li>✔ Real success stories included</li>
+        </ul>
+    </div>
+    
+    <section class="reviews">
+        <h2>Customer Reviews</h2>
+        <div class="review"><p>"This book gave me the knowledge and confidence to start making money online with simple, effective strategies!"</p><strong>- Srinivas., Influencer</strong></div>
+        <div class="review"><p>"The steps are so easy to follow. A must-read!"</p><strong>- Arvind., Freelancer</strong></div>
+        <div class="review"><p>"I started earning within days! Highly recommended."</p><strong>- Padmanabh., Affiliate Marketer</strong></div>
+    </section>
+    
+    <footer>
+        <h3>Disclaimer:</h3>
+        <p>This eBook is for informational and educational purposes only. While every effort has been made to ensure accuracy, the author and publisher make no guarantees regarding income or financial success. Earnings and results may vary based on individual effort, skills, market conditions, and other factors. This guide does not constitute financial, legal, or professional advice. Readers are encouraged to conduct their own research and consult with a qualified professional before making any financial decisions. The author and publisher are not responsible for any losses or damages incurred as a result of applying the information provided in this eBook.
+
+            By reading this eBook, you acknowledge and agree to take full responsibility for your own financial decisions.</p>
+    </footer>
+</body>
+</html>
